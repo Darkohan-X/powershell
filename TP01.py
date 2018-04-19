@@ -3,25 +3,30 @@ def exo01():
     while i < 500:
         print("Je dois faire des sauvegardes régulières de mes fichiers.")
         i = i + 1
+#exo01()
 def exo02():
     i = 1
     while i < 1000:
         print(i)
         i = i + 2
+#exo02()
 def exo03():
     i = 1
     while i <= 10:
         print(i*13)
         i = i +1
+#exo03()
 def exo04():
     compte = input("Ecrit un mot : ")
     print(len(compte))
+#exo04()
 def exo05():
     nombre = int(input("Ecrit un nombre : "))
     if nombre % 2 == 0:
         print("pair")
     else:
         print("impair")
+#exo05()
 def exo06():
     nombre = int(input("Ecrit un nombre entre 10 et 20 : "))
     if nombre >= 10 and nombre <= 20:
@@ -30,18 +35,21 @@ def exo06():
         print("Plus grand !")
     else:
         print("Plus petit !")
+#exo06()
 def exo07():
     depart = int(input("Ecrit un nombre : "))
     a = 0
     while a < 10:
         print(depart+a)
         a = a + 1
+#exo07()
 def exo08():
     multiple = int(input("Ecrit un nombre : "))
     a = 0
     while a <= 10:
         print(multiple*a)
         a = a + 1
+#exo08()
 def exo09():
     addition = int(input("Ecrit un nombre : "))
     a = 1
@@ -50,6 +58,7 @@ def exo09():
         b = a + b
         a = a + 1
     print(b)
+#exo09()
 def exo10():
     age = int(input("Quel est ton age ? : "))
     if age == 6 or age == 7:
@@ -62,6 +71,7 @@ def exo10():
         print("Cadet")
     else:
         print("T'es trop petit !")
+#exo10()
 def exo11():
     HT = 42
     TVA = 1.2
@@ -74,6 +84,6 @@ def exo11():
     print("Prix HT : ",HT, "€")
     print("Prix TTC : ",TTC, "€")
     print("Total de votre achat : ",total, "€")
-exo11()
+#exo11()
 
 
